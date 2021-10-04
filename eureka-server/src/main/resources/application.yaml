@@ -1,0 +1,8 @@
+server:
+  port: '8761'
+eureka:
+  client:
+    # to not register itself as client
+    register-with-eureka: 'false'
+    # to disable fetching registry of services like zuul from other sources
+    fetch-registry: 'false'
